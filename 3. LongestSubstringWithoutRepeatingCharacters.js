@@ -20,6 +20,11 @@ var lengthOfLongestSubstring = function(s) {
         crrCount = crrCount + 1;
         // console.log(arr)
       }
+      else{
+        arr.push(s[i]);
+        // console.log(arr);
+        crrCount = crrCount + 1;
+      }
     }
     if(longest < crrCount){
       longest = crrCount;
