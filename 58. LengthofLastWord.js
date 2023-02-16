@@ -6,7 +6,7 @@ var lengthOfLastWord = function(s) {
             lastWord = true;
         }
         while(lastWord){
-            if(s[i] === " " || i === 0)
+            if(s[i] === " " || i < 0)
                 return count
             i--
             count++
